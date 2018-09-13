@@ -3,7 +3,7 @@ package es.liguillasdepadel.app.viewModel
 import es.liguillasdepadel.app.model.Match
 import es.liguillasdepadel.app.model.Set
 
-class MatchItemVM(val match: Match) {
+class MatchItemVM(match: Match) {
 
     val firstNameHome = match.players?.home?.getOrNull(0)?.name ?: ""
     val secondNameHome = match.players?.home?.getOrNull(1)?.name ?: ""
@@ -17,15 +17,16 @@ class MatchItemVM(val match: Match) {
 
     val isFinish: Boolean = Match.Status.find(match.status ?: "") == Match.Status.CLOSE
     val result = setResult(isFinish, match.sets)
+    val sets = match.sets ?: arrayListOf()
 
     fun set(number: Int): Set? {
-        return match.sets?.find { it.numberSet == number }
+        return sets.find { it.numberSet == number }
     }
 
-    private fun setResult(isFinish: Boolean, players: ArrayList<Set>?): String {
+    private fun setResult(isFinish: Boolean, sets: ArrayList<Set>?): String {
         if (!isFinish) return "PENDIENTE DE JUGAR"
 
-        return players?.joinToString(separator = "/") { "${it.home} - ${it.away}" } ?: ""
+        return sets?.joinToString(separator = "/") { "${it.home} - ${it.away}" } ?: ""
     }
 
 }
