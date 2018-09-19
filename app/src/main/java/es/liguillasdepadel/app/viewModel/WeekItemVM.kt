@@ -5,7 +5,7 @@ import es.liguillasdepadel.app.model.Week
 class WeekItemVM(week: Week) {
 
     val id = week.id ?: ""
-    val isEmpty = week.isEmpty
+    val isEmpty = week.isEmpty == 1
     val name = week.name ?: ""
-    val data = week.matches?.map { MatchItemVM(it) } ?: arrayListOf()
+    val data = week.matchs?.map { MatchItemVM(it) } ?: arrayListOf()
 }

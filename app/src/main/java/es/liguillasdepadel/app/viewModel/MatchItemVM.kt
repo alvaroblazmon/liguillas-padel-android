@@ -26,7 +26,7 @@ class MatchItemVM(match: Match) {
     private fun setResult(isFinish: Boolean, sets: ArrayList<Set>?): String {
         if (!isFinish) return "PENDIENTE DE JUGAR"
 
-        return sets?.joinToString(separator = "/") { "${it.home} - ${it.away}" } ?: ""
+        return sets?.joinToString(separator = " / ") { "${it.home} - ${it.away}" } ?: ""
     }
 
 }

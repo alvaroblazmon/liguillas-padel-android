@@ -1,0 +1,747 @@
+{
+  "leagues": [
+    {
+      "id": "11",
+      "isDouble": "1",
+      "finish": "0",
+      "name": "Centro-Bajo-1.1",
+      "weeks": [
+        {
+          "name": "20 agosto - 26 agosto",
+          "isEmpty": "0",
+          "week": "34",
+          "matchs": [
+            {
+              "id": "1",
+              "status": "1",
+              "sets": [
+                {
+                  "numberSet": "1",
+                  "home": "6",
+                  "away": "0"
+                },
+                {
+                  "numberSet": "2",
+                  "home": "6",
+                  "away": "0"
+                }
+              ],
+              "players": {
+                "home": [
+                  {
+                    "id": "172",
+                    "name": "Marisol",
+                    "isHome": "1"
+                  },
+                  {
+                    "id": "173",
+                    "name": "Alba",
+                    "isHome": "1"
+                  }
+                ],
+                "away": [
+                  {
+                    "id": "175",
+                    "name": "Esther",
+                    "isHome": "0"
+                  },
+                  {
+                    "id": "176",
+                    "name": "Victoria",
+                    "isHome": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "27 agosto -  2 septiembre",
+          "isEmpty": "0",
+          "week": "35",
+          "matchs": [
+            {
+              "id": "2",
+              "status": "1",
+              "sets": [
+                {
+                  "numberSet": "1",
+                  "home": "6",
+                  "away": "1"
+                },
+                {
+                  "numberSet": "2",
+                  "home": "6",
+                  "away": "3"
+                }
+              ],
+              "players": {
+                "home": [
+                  {
+                    "id": "172",
+                    "name": "Marisol",
+                    "isHome": "1"
+                  },
+                  {
+                    "id": "173",
+                    "name": "Alba",
+                    "isHome": "1"
+                  }
+                ],
+                "away": [
+                  {
+                    "id": "189",
+                    "name": "Cristina",
+                    "isHome": "0"
+                  },
+                  {
+                    "id": "190",
+                    "name": "Raquel",
+                    "isHome": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": " 3 septiembre -  9 septiembre",
+          "isEmpty": "0",
+          "week": "36",
+          "matchs": [
+            {
+              "id": "3",
+              "status": "0",
+              "sets": [],
+              "players": {
+                "home": [
+                  {
+                    "id": "175",
+                    "name": "Esther",
+                    "isHome": "1"
+                  },
+                  {
+                    "id": "176",
+                    "name": "Victoria",
+                    "isHome": "1"
+                  }
+                ],
+                "away": [
+                  {
+                    "id": "189",
+                    "name": "Cristina",
+                    "isHome": "0"
+                  },
+                  {
+                    "id": "190",
+                    "name": "Raquel",
+                    "isHome": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "10 septiembre - 16 septiembre",
+          "isEmpty": "0",
+          "week": "37",
+          "matchs": [
+            {
+              "id": "4",
+              "status": "0",
+              "sets": [],
+              "players": {
+                "home": [
+                  {
+                    "id": "172",
+                    "name": "Marisol",
+                    "isHome": "1"
+                  },
+                  {
+                    "id": "173",
+                    "name": "Alba",
+                    "isHome": "1"
+                  }
+                ],
+                "away": [
+                  {
+                    "id": "175",
+                    "name": "Esther",
+                    "isHome": "0"
+                  },
+                  {
+                    "id": "176",
+                    "name": "Victoria",
+                    "isHome": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "17 septiembre - 23 septiembre",
+          "isEmpty": "0",
+          "week": "38",
+          "matchs": [
+            {
+              "id": "5",
+              "status": "0",
+              "sets": [],
+              "players": {
+                "home": [
+                  {
+                    "id": "172",
+                    "name": "Marisol",
+                    "isHome": "1"
+                  },
+                  {
+                    "id": "173",
+                    "name": "Alba",
+                    "isHome": "1"
+                  }
+                ],
+                "away": [
+                  {
+                    "id": "189",
+                    "name": "Cristina",
+                    "isHome": "0"
+                  },
+                  {
+                    "id": "190",
+                    "name": "Raquel",
+                    "isHome": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "24 septiembre - 30 septiembre",
+          "isEmpty": "0",
+          "week": "39",
+          "matchs": [
+            {
+              "id": "6",
+              "status": "0",
+              "sets": [],
+              "players": {
+                "home": [
+                  {
+                    "id": "175",
+                    "name": "Esther",
+                    "isHome": "1"
+                  },
+                  {
+                    "id": "176",
+                    "name": "Victoria",
+                    "isHome": "1"
+                  }
+                ],
+                "away": [
+                  {
+                    "id": "189",
+                    "name": "Cristina",
+                    "isHome": "0"
+                  },
+                  {
+                    "id": "190",
+                    "name": "Raquel",
+                    "isHome": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "played": 2,
+          "winners": 2,
+          "losers": 0,
+          "setWinners": 4,
+          "setLosers": 0,
+          "points": 6,
+          "players": [
+            {
+              "id": "172",
+              "name": "Marisol"
+            },
+            {
+              "id": "173",
+              "name": "Alba"
+            }
+          ]
+        },
+        {
+          "position": 2,
+          "played": 1,
+          "winners": 0,
+          "losers": 1,
+          "setWinners": 0,
+          "setLosers": 2,
+          "points": 1,
+          "players": [
+            {
+              "id": "175",
+              "name": "Esther"
+            },
+            {
+              "id": "176",
+              "name": "Victoria"
+            }
+          ]
+        },
+        {
+          "position": 2,
+          "played": 1,
+          "winners": 0,
+          "losers": 1,
+          "setWinners": 0,
+          "setLosers": 2,
+          "points": 1,
+          "players": [
+            {
+              "id": "189",
+              "name": "Cristina"
+            },
+            {
+              "id": "190",
+              "name": "Raquel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "isDouble": "1",
+      "finish": "0",
+      "name": "Centro-Medio-1.0",
+      "weeks": [],
+      "table": []
+    },
+    {
+      "id": "9",
+      "isDouble": "1",
+      "finish": "0",
+      "name": "Centro-Alto-0.9",
+      "weeks": [],
+      "table": []
+    },
+    {
+      "id": "8",
+      "isDouble": "1",
+      "finish": "0",
+      "name": "Centro-Bajo-0.8",
+      "weeks": [],
+      "table": []
+    },
+    {
+      "id": "7",
+      "isDouble": "1",
+      "finish": "0",
+      "name": "Sur-Medio-0.7",
+      "weeks": [],
+      "table": []
+    },
+    {
+      "id": "6",
+      "isDouble": "1",
+      "finish": "0",
+      "name": "Centro-Medio-0.6",
+      "weeks": [],
+      "table": []
+    },
+    {
+      "id": "5",
+      "isDouble": "1",
+      "finish": "0",
+      "name": "Norte-Medio-0.5",
+      "weeks": [],
+      "table": []
+    },
+    {
+      "id": "4",
+      "isDouble": "1",
+      "finish": "1",
+      "name": "Centro-Medio-0.4",
+      "weeks": [],
+      "table": [
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "24",
+              "name": "Manuel"
+            },
+            {
+              "id": "25",
+              "name": "Miguel"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "52",
+              "name": "Carlota"
+            },
+            {
+              "id": "53",
+              "name": "Pilar"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "81",
+              "name": "Carlos"
+            },
+            {
+              "id": "82",
+              "name": "David "
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "85",
+              "name": "Rosa Maria "
+            },
+            {
+              "id": "86",
+              "name": "Mercedes"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "58",
+              "name": "Luis"
+            },
+            {
+              "id": "34",
+              "name": "Antonio"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "63",
+              "name": "Cristina"
+            },
+            {
+              "id": "88",
+              "name": "Angeles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "isDouble": "1",
+      "finish": "1",
+      "name": "Sur-Medio-0.3",
+      "weeks": [],
+      "table": [
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "59",
+              "name": "David"
+            },
+            {
+              "id": "60",
+              "name": "Javier"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "67",
+              "name": "Clementina"
+            },
+            {
+              "id": "68",
+              "name": "Cristina"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "3",
+              "name": "Ñañañaña"
+            },
+            {
+              "id": "95",
+              "name": "Juan Andrés"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "47",
+              "name": "Macarena"
+            },
+            {
+              "id": "80",
+              "name": "David"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "isDouble": "1",
+      "finish": "1",
+      "name": "Norte-Medio-0.2",
+      "weeks": [],
+      "table": [
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "69",
+              "name": "Arantxa"
+            },
+            {
+              "id": "84",
+              "name": "Karin"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "74",
+              "name": "Rebecca"
+            },
+            {
+              "id": "75",
+              "name": "Paula"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "42",
+              "name": "Adrián"
+            },
+            {
+              "id": "146",
+              "name": "Rodrigo"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "33",
+              "name": "Javier"
+            },
+            {
+              "id": "83",
+              "name": "Carmen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "isDouble": "1",
+      "finish": "1",
+      "name": "Centro-Bajo-0.1",
+      "weeks": [],
+      "table": [
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "76",
+              "name": "Alicia"
+            },
+            {
+              "id": "77",
+              "name": "Enrique"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "90",
+              "name": "Antonio"
+            },
+            {
+              "id": "91",
+              "name": "Javier"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "70",
+              "name": "Adrian"
+            },
+            {
+              "id": "71",
+              "name": "Lara"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "played": 0,
+          "winners": 0,
+          "losers": 0,
+          "setWinners": 0,
+          "setLosers": 0,
+          "points": 0,
+          "players": [
+            {
+              "id": "23",
+              "name": "Francisco"
+            },
+            {
+              "id": "73",
+              "name": "Carlos"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

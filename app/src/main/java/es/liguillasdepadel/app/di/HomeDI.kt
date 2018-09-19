@@ -4,9 +4,9 @@ import es.liguillasdepadel.app.service.HomeService
 import es.liguillasdepadel.app.service.Service
 
 interface HomeServiceRepository {
-    fun getService3(): HomeService
+    fun getService(): HomeService
 }
 
 class HomeServiceRepositoryImpl: HomeServiceRepository {
-    override fun getService3(): HomeService = Service().getRetrofit().create(HomeService::class.java)
+    override fun getService(): HomeService = Service().getRetrofit().create(HomeService::class.java)
 }

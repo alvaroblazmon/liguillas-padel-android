@@ -1,7 +1,10 @@
 package es.liguillasdepadel.app.model
 
-data class Week (val id: String?,
-                 val isEmpty: Boolean?,
+import com.google.gson.annotations.SerializedName
+
+data class Week (@SerializedName("week")
+                val id: String?,
+                 val isEmpty: Int?,
                  val name: String?,
-                 val matches: ArrayList<Match>?
+                 val matchs: ArrayList<Match>?
 )
