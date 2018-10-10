@@ -13,7 +13,7 @@ import retrofit2.Response
 import java.util.*
 
 
-class HomeVM(val service: HomeServiceRepository): ViewModel() {
+class HomeVM(private val service: HomeServiceRepository): ViewModel() {
 
     fun reloadData() {
         callService( service.getService().getInfo() )
