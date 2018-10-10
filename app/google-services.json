@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "244603261329",
+    "firebase_url": "https://liguillas-de-padel.firebaseio.com",
+    "project_id": "liguillas-de-padel",
+    "storage_bucket": "liguillas-de-padel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244603261329:android:88263f9e33d629f8",
+        "android_client_info": {
+          "package_name": "es.liguillasdepadel.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244603261329-ie7pobv8q22m8sk1klfg0psvit1q3443.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRPjSU8P1BzKue0fzR-DQdosyu_q4MqKk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
