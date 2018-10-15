@@ -1,5 +1,6 @@
 package es.liguillasdepadel.app.viewControllers.leagues.viewModel
 
+import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
 import android.util.Log
 import com.google.gson.*
@@ -15,6 +16,8 @@ import java.util.*
 
 class HomeVM(private val service: HomeServiceRepository): ViewModel() {
 
+    val dataMLD = MutableLiveData<List<LeagueItemVM>>()
+
     fun reloadData() {
         callService( service.getService().getInfo() )
     }
@@ -28,20 +31,23 @@ class HomeVM(private val service: HomeServiceRepository): ViewModel() {
 
                         jsonResponse["leagues"]?.let { leaguesJson ->
                             val leagues = Arrays.asList<League>(*Gson().fromJson(leaguesJson.toString(), Array<League>::class.java))
-                            val leaguesItemVM = leagues.map { LeagueItemVM(it) }
-                            Log.d("", leaguesItemVM.toString())
+                            dataMLD.value = leagues.map { LeagueItemVM(it) }
                         }
                     }
                 } else {
-                    //infoMLD.value = null
+                    dataMLD.value = null
                 }
             }
 
             override fun onFailure(call: Call<HomeResponseFormat>?, t: Throwable?) {
-                //infoMLD.value = null
-                Log.d("", t.toString())
+                dataMLD.value = null
+                Log.d(TAG, t.toString())
             }
         })
+    }
+
+    companion object {
+        val TAG: String = HomeVM::class.java.simpleName
     }
 
 
